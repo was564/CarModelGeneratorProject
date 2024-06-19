@@ -9,7 +9,8 @@
     </style>
 </head>
 <body>
-<script type="module">
+<script type="module" src="{{ url_for('static', filename='renderObj.js')}}">
+    /*
     import * as THREE from 'https://cdn.jsdelivr.net/npm/three/build/three.module.js';
 
     const scene = new THREE.Scene();
@@ -31,6 +32,7 @@
 	    renderer.render( scene, camera );
     }
     animate();
+    */
 </script>
 
 </body>
